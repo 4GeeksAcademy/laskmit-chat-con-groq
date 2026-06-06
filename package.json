@@ -1,0 +1,26 @@
+{
+  "name": "laskmit-chat-con-groq",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "16.2.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.2",
+    "@types/react": "19.2.17",
+    "autoprefixer": "10.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "13.4.10",
+    "postcss": "8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "5.9.3"
+  }
+}
