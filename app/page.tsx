@@ -1,9 +1,10 @@
+import ChatApp from '../components/ChatApp'
+
 export default function Page() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="w-full max-w-3xl p-6">
-        <h1 className="text-2xl font-bold">Laskmit Chat con Groq</h1>
-        <p className="mt-4 text-gray-600">Estructura base creada. Integra la API de Groq en la ubicación que prefieras.</p>
+    <main className="min-h-screen px-4 py-4 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-7xl">
+        <ChatApp />
       </div>
     </main>
   )
